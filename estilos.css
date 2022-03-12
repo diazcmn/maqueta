@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background: #fff;
+    height: 80px;
+}
+
+.logo img {
+    margin-right: 800px;
+}
+
+.fa-bars {
+    font-size: 25px;
+    float: left;
+}
+
+#btn-menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    background: #fff;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 25px 80px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li a {
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -999;
+    height: 700px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner__content {
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-45%) translateY(-50%);
+    color: white;
+    font-size: 1.3em;
+}
+
+.banner__title img {
+    width: 15px;
+    margin-bottom: 7px;
+}
+
+.divider {
+    width: 25%;
+    height: 3px;
+    background: #fff;
+}
+
+.banner__title {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.banner__txt {
+    margin-top: 15px;
+}
+
+.card-container-glass {
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    font-size: 1.3em;
+}
+
+.card-body-glass {
+    padding: 20px;
+}
+
+.card-glass {
+    background: rgba(0, 0, 0, 0.4);
+    border: dotted grey;
+    border-radius: 10px;
+}
+
+.card-title-glass {
+    text-transform: uppercase;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.card-subtitile-glass {
+    color: #fff;
+    font-weight: bold;
+}
+
+.card-text-glass {
+    color: #fff;
+    font-size: 15px;
+}
+
+.card-body-glass img {
+    width: 8px;
+    margin-left: 8px;
+}
+
+.divider-pink {
+    width: 10%;
+    height: 3px;
+    background: palevioletred;
+    padding: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.container-section1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background: rgb(197, 191, 191);
+    margin-top: 730px;
+    flex-direction: column;
+}
+
+.section1-h2 {
+    font-weight: bolder;
+    padding: 30px 80px;
+    color: #212121;
+    font-size: 25px;
+}
+
+.container-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 300px;
+}
+
+.container-cardb {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 300px;
+}
+
+.card-body {
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.4);
+}
+
+.card-title {
+    color: black;
+    font-weight: bold;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-text {
+    color: gray;
+}
+
+.card-text span {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: rgb(228, 77, 102);
+    border: rgb(228, 77, 102);
+    width: 85px;
+    height: px 0;
+    margin-left: 15px;
+    font-weight: bolder;
+}
+
+.btn {
+    margin-top: -55px;
+}
+
+.container-section2 {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+
+.time {
+    display: flex;
+}
+
+.time p {
+    color: rgb(197, 191, 191);
+}
+
+.reloj-img {
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.img-grandes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 150px;
+    margin-top: -150px;
+    position: relative;
+}
+
+.txt-img-grande {
+    margin-left: 50px;
+    margin-bottom: 500px;
+    position: absolute;
+}
+
+.txt-img-grande h3 {
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.txt-img-grande h2 {
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.txt-img-grande p {
+    color: #fff;
+}
+
+.txt-img-grandeb {
+    margin-left: 50px;
+    margin-bottom: -700px;
+    position: absolute;
+}
+
+.txt-img-grandeb h3 {
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.txt-img-grandeb h2 {
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.txt-img-grandeb p {
+    color: #fff;
+}
+
+.card-text2 {
+    font-weight: bolder;
+}
+
+.img-pequeñas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -108px;
+}
+
+footer {
+    background: #212121;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .logo {
+        display: none;
+    }
+    header label {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        background: #fff;
+        width: 60%;
+        height: 780px;
+        margin-left: -60%;
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    #btn-menu:checked~.menu {
+        margin: 0;
+    }
+    .card-container-glass {
+        display: none;
+    }
+    .banner__content {
+        height: 800px;
+    }
+    .banner__title {
+        margin-top: 100px;
+    }
+    .banner__txt2 {
+        display: none;
+    }
+    .divider {
+        width: 300px;
+    }
+    .divider-pink {
+        display: none;
+    }
+    .container-card {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .section1-cardb {
+        display: none;
+    }
+    .banner {
+        width: 100%;
+        height: 820px;
+        display: flex;
+    }
+    .banner__content {
+        margin-top: 200px;
+    }
+    .container-section1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+    }
+    .card-body {
+        width: 300px;
+    }
+    .card-img-top {
+        width: 300px;
+    }
+    .container-section2 {
+        height: 650px;
+    }
+    .img-pequeñas {
+        display: none;
+    }
+    .img-grandes {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-grandes img {
+        margin-bottom: 10px;
+    }
+}
